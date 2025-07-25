@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "../App.css";
 import { LuImagePlus } from "react-icons/lu";
-import { LuImageUp } from "react-icons/lu";
+//import { LuImageUp } from "react-icons/lu";
 import { BsChatQuote } from "react-icons/bs";
 import { HiOutlinePlusSm } from "react-icons/hi";
 import { HiArrowSmUp } from "react-icons/hi";
@@ -111,7 +111,7 @@ function Home() {
                 document.getElementById("inputImg").click();
               }}
             >
-              <LuImageUp />
+              
               <span>Upload image</span>
             </div>
             <div className="genImg" onClick={() => Setfeature("genImg")}>
